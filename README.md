@@ -265,7 +265,8 @@ Daniel Saraiva
 
 Desenvolvedor Full Stack em formação.
 
-[![Logo do GitHub](https://shields.io)](https://github.com)
+![Mascote Octocat do GitHub](https://githubassets.com)
+
 
 
 [Discord](https://discordapp.com/users/)
