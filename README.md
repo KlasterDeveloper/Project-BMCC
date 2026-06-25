@@ -246,10 +246,10 @@ Usuário
 Interface Web
    │
    ▼
-PHP
+  PHP
    │
    ▼
-MySQL
+ MySQL
 ```
 
 ---
