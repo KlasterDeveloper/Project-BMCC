@@ -274,8 +274,4 @@ Desenvolvedor Full Stack em formação.
 
 </div>
 
----
 
-# 📄 Licença
-
-Este projeto é disponibilizado para fins acadêmicos e educacionais.
