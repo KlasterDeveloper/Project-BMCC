@@ -265,9 +265,11 @@ Daniel Saraiva
 
 Desenvolvedor Full Stack em formação.
 
-GITHUB
+
 [![Discord](https://img.shields.io/badge/Discord-Perfil-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/393069761375895562)
-[DISCORD](https://discordapp.com/users/393069761375895562)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Perfil-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KlasterDeveloper)
+
 ---
 
 # 📄 Licença
