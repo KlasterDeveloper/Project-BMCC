@@ -119,27 +119,28 @@ O projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web, apli
 ## 🗂 Estrutura do Projeto
 
 ```bash
-biblioteca-municipal/
+Project BMCC/
 │
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
+├── css/
+│   └── style.css
 │
-├── includes/
-│   ├── config.php
-│   ├── database.php
-│   └── functions.php
+├── js/
+│   └── main.php
 │
-├── pages/
-│   ├── dashboard.php
-│   ├── livros.php
-│   ├── cadastrar.php
-│   ├── editar.php
-│   └── visualizar.php
-│
-├── database/
+├── sql/
 │   └── biblioteca.sql
+│
+├── php/
+│   ├── config.php
+│   ├── criar.php
+│   ├── detalhe.php
+│   ├── editar.php
+│   ├── exluir.php
+│   ├── funcions.php
+│   ├── listar.phh
+│   ├── painel.php
+│   └──sidebar.php
+│
 │
 ├── index.php
 │
@@ -153,13 +154,13 @@ biblioteca-municipal/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seuusuario/biblioteca-municipal.git
+git clone https://github.com/KlasterDeveloper/Project-BMCC.git
 ```
 
 ### 2. Acesse o diretório
 
 ```bash
-cd biblioteca-municipal
+cd Project BMCC
 ```
 
 ### 3. Mova para o htdocs
@@ -192,7 +193,7 @@ $db   = "biblioteca";
 ### 7. Execute
 
 ```text
-http://localhost/biblioteca-municipal
+http://localhost/ProjectBMCC
 ```
 
 ---
