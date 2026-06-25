@@ -1,126 +1,93 @@
-# Project-BMCC
-O Project BMCC é um projeto em desenvolvimento, originou-se de um um projeto universitário que tem como objetivo adicionar material substancial para portfolio profissional a ser desenvolvido, ele é essencialmente um projeto C.R.U.D para gerenciamento de acervo bibliotecário municipal, privado ou de baixo orçamento.
+<div align="center">
 
-# Project BMCC — Library Management System
+# 📚 Biblioteca Municipal de Cristino Castro
 
-Sistema Web desenvolvido para gerenciamento do acervo da Biblioteca Municipal de Cristino Castro, permitindo o cadastro, consulta, edição e exclusão de livros através de uma interface moderna e intuitiva.
+Sistema Web para gerenciamento de acervo bibliográfico desenvolvido com PHP e MySQL.
 
-![PHP](https://img.shields.io/badge/PHP-8.0+-blue)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26-red)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+[Funcionalidades](#-funcionalidades) •
+[Tecnologias](#-tecnologias) •
+[Instalação](#-instalação) •
+[Estrutura](#-estrutura-do-projeto) •
+[Roadmap](#-roadmap)
 
----
-
-# 📖 Sobre o Projeto
-
-O Sistema de Biblioteca Municipal foi desenvolvido com o objetivo de facilitar o gerenciamento do acervo bibliográfico da biblioteca, oferecendo recursos para cadastro, pesquisa, atualização e exclusão de livros.
-
-O projeto foi criado utilizando PHP, MySQL, HTML, CSS e JavaScript, seguindo o padrão CRUD (Create, Read, Update e Delete).
+</div>
 
 ---
 
-# 🎯 Objetivos
+## 📖 Sobre o Projeto
 
-- Organizar o acervo da biblioteca.
-- Facilitar a consulta de livros.
-- Centralizar informações bibliográficas.
-- Melhorar o controle dos exemplares disponíveis.
-- Disponibilizar uma interface simples e moderna para os usuários.
+O Biblioteca Municipal de Cristino Castro é uma aplicação web desenvolvida para modernizar o gerenciamento do acervo bibliográfico da biblioteca municipal.
 
----
+A plataforma permite o controle completo dos livros cadastrados, oferecendo recursos para consulta, cadastro, edição, exclusão e visualização detalhada das obras.
 
-# 🚀 Funcionalidades
+O projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web, aplicando conceitos de:
 
-## 📊 Dashboard
-
-- Visualização geral do sistema.
-- Total de livros cadastrados.
-- Livros disponíveis.
-- Livros emprestados.
-- Livros em manutenção.
-
-**(IMG_DASHBOARD)**
+- Arquitetura CRUD
+- Banco de Dados Relacional
+- Programação PHP
+- Integração com MySQL
+- Desenvolvimento Front-end Responsivo
 
 ---
 
-## 📚 Gestão de Livros
+## ✨ Funcionalidades
 
-### Cadastro
+### 📚 Gerenciamento de Livros
 
-Permite cadastrar novos livros contendo:
+- Cadastro de novos livros
+- Atualização de registros
+- Exclusão de livros
+- Consulta detalhada
+- Pesquisa por título
+- Pesquisa por autor
+- Pesquisa por ISBN
 
-- Título
-- Autor
-- ISBN
-- Categoria
-- Ano de publicação
-- Editora
-- Número de páginas
-- Status
-- Localização
-- Descrição
-- URL da capa
+### 📊 Dashboard
 
-**(IMG_CADASTRO)**
+- Total de livros cadastrados
+- Estatísticas do acervo
+- Visualização rápida dos registros
 
----
+### 🔍 Sistema de Busca
 
-### Consulta
+- Filtros dinâmicos
+- Pesquisa em tempo real
+- Organização dos resultados
 
-- Listagem completa dos livros cadastrados.
-- Busca por título.
-- Busca por autor.
-- Busca por ISBN.
-- Filtro por categoria.
-- Filtro por status.
+### 🖼️ Catálogo Visual
 
-**(IMG_LISTAGEM)**
+- Exibição de capas
+- Informações bibliográficas completas
+- Status de disponibilidade
 
 ---
 
-### Edição
+## 📸 Demonstração
 
-Permite atualizar todas as informações do livro.
+### Dashboard
 
-**(IMG_EDICAO)**
+<img src="docs/images/dashboard.png" width="900">
 
----
+### Catálogo
 
-### Exclusão
+<img src="docs/images/catalogo.png" width="900">
 
-Permite remover registros do sistema.
+### Cadastro de Livros
 
-**(IMG_EXCLUSAO)**
+<img src="docs/images/cadastro.png" width="900">
 
----
+### Detalhes
 
-### Visualização Detalhada
-
-Exibe:
-
-- Dados completos do livro.
-- Categoria.
-- Informações bibliográficas.
-- Status atual.
-- Descrição.
-- Capa do livro.
-
-**(IMG_DETALHES)**
+<img src="docs/images/detalhes.png" width="900">
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias
 
 ### Backend
 
 - PHP 8+
 - PDO
-
-### Banco de Dados
-
-- MySQL
 
 ### Frontend
 
@@ -128,37 +95,41 @@ Exibe:
 - CSS3
 - JavaScript
 
-### Ferramentas
+### Banco de Dados
+
+- MySQL
+
+### Ambiente de Desenvolvimento
 
 - XAMPP
 - phpMyAdmin
-- VS Code
+- Visual Studio Code
 
 ---
 
-# 📂 Estrutura do Projeto
+## 🗂 Estrutura do Projeto
 
-```text
-Project BMCC/
+```bash
+biblioteca-municipal/
 │
-├── css/
-│   └── style.css
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
 │
-├── js/
-│   └── main.js
-│
-├── php/
+├── includes/
 │   ├── config.php
-│   ├── functions.php
-│   ├── painel.php
-│   ├── listar.php
-│   ├── criar.php
-│   ├── editar.php
-│   ├── detalhe.php
-│   ├── excluir.php
-│   └── sidebar.php
+│   ├── database.php
+│   └── functions.php
 │
-├── sql/
+├── pages/
+│   ├── dashboard.php
+│   ├── livros.php
+│   ├── cadastrar.php
+│   ├── editar.php
+│   └── visualizar.php
+│
+├── database/
 │   └── biblioteca.sql
 │
 ├── index.php
@@ -168,169 +139,128 @@ Project BMCC/
 
 ---
 
-# 🗄 Banco de Dados
+## ⚙️ Instalação
 
-O sistema utiliza um banco chamado:
-
-```sql
-biblioteca
-```
-
-Tabela principal:
-
-```sql
-livros
-```
-
-Campos:
-
-| Campo | Tipo |
-|---------|---------|
-| id | INT |
-| titulo | VARCHAR(255) |
-| autor | VARCHAR(255) |
-| isbn | VARCHAR(20) |
-| categoria | ENUM |
-| ano | YEAR |
-| editora | VARCHAR(150) |
-| paginas | INT |
-| status | ENUM |
-| localizacao | VARCHAR(100) |
-| descricao | TEXT |
-| capa_url | VARCHAR(500) |
-| criado_em | DATETIME |
-| atualizado_em | DATETIME |
-
----
-
-# ⚙️ Instalação
-
-## 1. Clonar o repositório
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/seuusuario/biblioteca-municipal.git
 ```
 
----
+### 2. Acesse o diretório
 
-## 2. Mover para o XAMPP
-
-Copie a pasta para:
-
-```text
-xampp/htdocs/
+```bash
+cd biblioteca-municipal
 ```
 
----
+### 3. Mova para o htdocs
 
-## 3. Criar banco de dados
-
-Abra:
-
-```text
-http://localhost/phpmyadmin
+```bash
+C:\xampp\htdocs\
 ```
 
-Crie o banco:
+### 4. Crie o banco
 
 ```sql
-biblioteca
+CREATE DATABASE biblioteca;
 ```
 
----
-
-## 4. Importar Script SQL
-
-Importe o arquivo:
+### 5. Importe o arquivo SQL
 
 ```text
-sql/biblioteca.sql
+database/biblioteca.sql
 ```
 
----
-
-## 5. Configurar conexão
-
-Arquivo:
+### 6. Configure a conexão
 
 ```php
-php/config.php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "biblioteca";
 ```
 
-```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'biblioteca');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-```
-
----
-
-## 6. Executar
-
-Acesse:
+### 7. Execute
 
 ```text
-http://localhost/Project%20BMCC
+http://localhost/biblioteca-municipal
 ```
 
 ---
 
-# 🔒 Segurança Implementada
+## 🔒 Segurança
 
-- PDO Prepared Statements
-- Proteção contra SQL Injection
-- Escape de saída HTML
+O sistema utiliza:
+
+- Prepared Statements (PDO)
+- Sanitização de entradas
+- Escape de saídas HTML
 - Validação de formulários
-- Sanitização de dados
+- Proteção contra SQL Injection
 
 ---
 
-# 📈 Melhorias Futuras
+## 📈 Roadmap
 
-- Sistema de login.
-- Controle de empréstimos.
-- Controle de usuários.
-- Histórico de movimentações.
-- Geração de relatórios PDF.
-- Dashboard com gráficos.
-- Exportação para Excel.
-- Controle de multas.
+### Versão 1.0
 
----
+- [x] Cadastro de livros
+- [x] Edição de livros
+- [x] Exclusão de livros
+- [x] Consulta de livros
 
-# 📸 Capturas de Tela
+### Versão 2.0
 
-## Dashboard
+- [ ] Sistema de login
+- [ ] Controle de usuários
+- [ ] Controle de empréstimos
+- [ ] Relatórios PDF
+- [ ] Exportação Excel
+- [ ] Dashboard analítico
 
-(IMG_DASHBOARD)
+### Versão 3.0
 
----
-
-## Acervo
-
-(IMG_LISTAGEM)
-
----
-
-## Cadastro
-
-(IMG_CADASTRO)
+- [ ] API REST
+- [ ] Aplicativo Mobile
+- [ ] QR Code para livros
+- [ ] Sistema de reservas
 
 ---
 
-## Detalhes do Livro
+## 🏗 Arquitetura
 
-(IMG_DETALHES)
+```text
+Usuário
+   │
+   ▼
+Interface Web
+   │
+   ▼
+PHP
+   │
+   ▼
+MySQL
+```
 
 ---
 
-# 👨‍💻 Autor
+## 📄 Licença
 
-**Daniel Saraiva**
+Este projeto foi desenvolvido para fins acadêmicos e educacionais.
 
-Projeto desenvolvido para a disciplina de Desenvolvimento Web.
+---
 
+## 👨‍💻 Autor
+
+Daniel Saraiva
+
+Desenvolvedor Full Stack em formação.
+
+GitHub:
+https://github.com/seuusuario
+
+LinkedIn:
+https://linkedin.com/in/seuperfil
 ---
 
 # 📄 Licença
