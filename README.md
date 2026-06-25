@@ -271,7 +271,8 @@ Este projeto foi desenvolvido para fins acadêmicos e educacionais.
 
 </div>
 
-
+<br>
+<br>
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-ChibaYato-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChibaYato)
