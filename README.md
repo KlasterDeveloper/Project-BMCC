@@ -263,8 +263,6 @@ Este projeto foi desenvolvido para fins acadêmicos e educacionais.
 <br>
 <br>
 <br>
-<br>
-<br>
 
 <div align="center">
 
