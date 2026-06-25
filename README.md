@@ -266,9 +266,13 @@ Daniel Saraiva
 Desenvolvedor Full Stack em formação.
 
 
-[![Discord](https://img.shields.io/badge/Discord-Perfil-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/393069761375895562)
+<div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Perfil-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KlasterDeveloper)
+[![GitHub](https://img.shields.io/badge/GitHub-ChibaYato-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChibaYato)
+[![Discord](https://img.shields.io/badge/Discord-ChibaYato-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/SEU_ID)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU_PERFIL)
+
+</div>
 
 ---
 
