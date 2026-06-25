@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Biblioteca Municipal de Cristino Castro
+# 📚 Project BMCC
 
 Sistema Web para gerenciamento de acervo bibliográfico desenvolvido com PHP e MySQL.
 
@@ -11,7 +11,11 @@ Sistema Web para gerenciamento de acervo bibliográfico desenvolvido com PHP e M
 [Roadmap](#-roadmap)
 
 </div>
-
+![PHP](https://img.shields.io/badge/PHP-8.0+-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26-red)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 ---
 
 ## 📖 Sobre o Projeto
