@@ -258,8 +258,12 @@ MySQL
 Este projeto foi desenvolvido para fins acadêmicos e educacionais.
 
 ---
-
+<div align="center">
 ## 👨‍💻 Autor
+</div>
+
+
+
 
 <div align="center">
 
