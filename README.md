@@ -274,4 +274,12 @@ Desenvolvedor Full Stack em formação.
 
 </div>
 
+<div align="center">
 
+## 💬 Discord
+
+Clique no card abaixo para acessar meu perfil.
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/123456789012345678?theme=dark&bg=1e1e2e&borderRadius=15px&animated=true)](https://discord.com/users/123456789012345678)
+
+</div>
