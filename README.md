@@ -280,6 +280,10 @@ Desenvolvedor Full Stack em formação.
 
 Clique no card abaixo para acessar meu perfil.
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/123456789012345678?theme=dark&bg=1e1e2e&borderRadius=15px&animated=true)](https://discord.com/users/393069761375895562)
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=500&lines=Daniel+Saraiva;Full+Stack+Developer;PHP+%7C+MySQL+%7C+JavaScript" />
+
+</div>
 
 </div>
