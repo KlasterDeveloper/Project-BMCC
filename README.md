@@ -265,11 +265,10 @@ Daniel Saraiva
 
 Desenvolvedor Full Stack em formação.
 
-GitHub:
-https://github.com/seuusuario
+[![Logo do GitHub](https://shields.io)](https://github.com)
 
-LinkedIn:
-https://linkedin.com/in/seuperfil
+
+[Discord](https://discordapp.com/users/)
 ---
 
 # 📄 Licença
