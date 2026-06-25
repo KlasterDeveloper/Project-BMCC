@@ -265,10 +265,9 @@ Daniel Saraiva
 
 Desenvolvedor Full Stack em formação.
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-
-
-[Discord](https://discordapp.com/users/)
+GITHUB
+[![Discord](https://img.shields.io/badge/Discord-Perfil-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/393069761375895562)
+[DISCORD](https://discordapp.com/users/393069761375895562)
 ---
 
 # 📄 Licença
